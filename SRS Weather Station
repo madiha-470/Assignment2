@@ -1,0 +1,143 @@
+Credit to Mazimbu
+
+1         INTRODUCTION
+
+1.1       Purpose
+The purpose of  this document  is to describe the software  specification requirements for  Mazimbu Weather Recording  System. The document will describe how the product will collect and display local weather data and analyze the weather forecast. The document contains the functional behavior and non-functional requirements of the system project. The document also contains  the guidelines for system engineers and programmers to start working and accomplish the project on a given time frame. The product will be beneficial to the Mazimbu faculty staff, students and employees.
+
+
+1.2       Document conventions
+The format of this Software Requirement Specifications for Mazimbu Weather Recording  System is simple. Bold face and indentation is used on general topics and on specific points of interest.  The rest  of the document will be written using the standard font, Times New Roman.
+
+1.3       Intended audience and Read suggestions
+The intended readers of this document are the developers of the station, testers, station owners, managers and coordinators.
+In case of any suggested changes on the requirements listed on this document should be included in the last version of it so it can be a reference to developing and validating teams.
+
+1.4       Product Scope
+The software product is named Mazimbu Weather Recording  System . It will be able to collect and display local weather data, analyze weather forecast and display a live stream of the local weather data on autonomous instruments. The product will be beneficial to the Mazimbu faculty staff, students, employees and different organizations who will need weather information from Mazimbu  weather station. The main goal is to have an autonomous record instruments and a database for the safe storage of all the records from the Mazimbu weather station.
+
+
+
+
+1.5       References
+·         IEEE 830-1998 standard for writing SRS document.
+
+·         IEEE Std 1233, 1998 Edition, IEEE Guide for Developing System Requirements Specifications.
+
+2. OVERALL DESCRIPTIONS
+
+  2.1 product perspective
+
+ The current Mazimbu weather recording system is synoptic weather station which includes both conversion weather station and an automation weather station.The proposed Mazimbu weather  station is Automation weather station which will make changes of the conversional weather station system and modify the existing automation weather station system. The following is the simple diagram that shows the major components of the overall system:
+
+2.2 Product function
+Using  Mazimbu weather  station system users will be able to accomplish the following;
+·Get weather forecasting information
+·Meteorological information
+·Collect and display weather data
+·Analyze weather forecasting
+·Training skills
+·Gets authentication
+
+2.3 user classes and characteristics
+There are different users  who interact with the system . The users of the system are the  station manager  Mr.Vitalis and his assistant Mr.Mateleka as the higher level and clients or customers as a lower level with different purpose of interacting with the system.Station manager  and his assistant  interact with the system during recording and measuring of data also the customers and clients interact with the system during acquiring weather information.
+2.4 Operating environment.
+·Hardware environment
+            Mazimbu weather station system at Mazimbu campus is both conversion and automation.In using conversional weather station, a station manager of Mazimbu(Mr.Vitalis) and his assistant Mr.Mateleka measures  and records the weather information manually. While in using  the automation weather station they do not measure weather information manually but, they  record the data directly from the stationwhile the existing automation weather station involves automatically recorded weather information.
+·         Software environment
+The system needs database that will ensure complete change of conversional weather station to automation weather station and modifying the existing automation weather station and ensure computerization  of the data found.
+
+ 2.5 Product constraints
+The  Mazimbu weather recording system is limited by  specific technologies, tools, and databases to be used,money or funding for system development and weather measuring instruments.
+
+ 2.6 Assumption and dependencies
+One assumption about the product is that it will always be implemented and used on hardware devices that is the weather measuring instruments that have good performance.
+
+
+       3. Specific requirements
+This section contains all of the functional and quality requirements of the system. It gives a detailed Descriptionsof the system and all its features found in the system.
+            3.1 External interface Requirements
+This section provides a detailed description of all inputs into and outputs from the system. It also gives a description of the hardware, software and communication interfaces and provides basic prototypes of the user interface.
+            3.1.1.User interface:
+A first-time user of the Mazimbu weathering recording system should see the log-in page when he/she opens the application. If the user has not registered, he/she should be able to do that on the log-in page. If the user is not a first-time user, he/she should be able to see the search page directly when the system is opened. Here the user chooses the type of search he/she wants to conduct. Every user should have a profile page where they can edit their e-mail address, phone number and password.
+         3.1.2Hardware interfaces
+The physical GPS is managed by the GPS application in the mobile phone and the hardware connection to the database server is managed by the underlying operating system on the Mazimbu weathering recording system and the web server.
+          3.1.3.Software interfaces
+The software interfaces that will be used are GPS and SQL Management Studio.  GPS used to collect  geographical  information of the area around the station and  SQL Management Studio will be used to maintain the database to store the forecast.
+
+ 
+              3.1.4.Communications interfaces
+The communication between the different parts of the system is important since they depend on each Other .There is two interfaces that our system will interact with. The first interface is the Weather Channel website to provide the forecast. The second interface is the camera that the live weather feed will come from. Also there are social networks such as face book, twitter that help communication between the clients or costumers and the workers at the station for more detail or clarification about the service provides by the system.
+      4.System Features
+This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, or combinations of these, whatever makes the most logical sense for your product.
+        4.1System Feature agricultural agency
+4.1.1    Description and Priority
+Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and right season for transport goods.
+4.1.2    Response/Stimulus Sequences
+List the sequences of agricultural user action and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.
+4.1.3    Functional Requirements
+Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs.
+
+Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.
+
+
+4.2.System Feature SUA staff
+4.2.1    Description and Priority
+Provide a short description of the staff members to connects the students learning material and the information from the weathering station to be the part of learning material. Alsostudents should know the name of the system and in charge at mazimbu weathering station.
+4.2.2    Response/Stimulus Sequences
+SUA staff now as auser action and system responses that stimulate the behavior defined for this feature. Staff members will elects to view the practical information from mazimbu weather station.
+4.2.3    Functional Requirements
+In order to functional requirements associated with this feature. The software capabilities in order for user to carry out the service provided by the feature it must be present, or to execute the use case.
+
+ 
+  4.3.System Feature water management agency
+4.3.1    Description and Priority
+Provide a short description of the feature and indicate the rate of water it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, underground water, cost, and amount of water.
+4.3.2.Response/Stimulus Sequences
+Water manager agency as a user action get the result from system responses that stimulate the behavior for feature. And this result will based on the options of water manager requirements.
+
+4.3.3    Functional Requirements
+Functional requirements associated with this feature can be itemized. Depending on the request of the water manager these are the software capabilities that must be present in order for the user to carry out the services provided by the feature. Include how the result should respondfor the request of the user
+
+
+
+5. OTHER NON FUNCTIONAL REQUIREMENTS
+5.1.Perfomance requirements
+.This section includes the requirements that specify all the fundamental actions of the software system.
+5.1.2. Perfomance requirement 1.1
+Tool: The SQL management tools
+DESC: will be used to maintain the database to store the forecast .
+RAT: In order to for a user to use get the required during the search easily  and maintainability  by the administrator easily
+5.1.3. Perfomance requirement 1.2
+Tool:  search tool
+DESC: The different search options should be evident, simple and easy to understand.
+RAT: In order to for a user to perform a search easily.
+5.1.4 Perfomance requirement 1.3
+Usage of the result in the map view
+Tool:GPS
+DESC: The results displayed geographical information in clearyresolution .
+RAT: In order to for a user to use the map view easily.
+ 
+5.1.5. Perfomance requirement 1.4
+Tool: System dependability
+SCALE:  If the system loses the connection to the Internet or to the GPS device or the system gets some strange input, the user should be informed.
+METER: Measurements obtained from 1000 hours of usage during testing.
+MUST: 100% of the time.
+5.2 Safety requirement
+The product of this system has no safety requirements.
+5.3.Security requirement
+The System needs a strong and healthy security mechanism in place so that unauthorized users are not allowed access. Authorized users are expected to be restricted to software and hardware development, testing, maintenance and operations personnel.
+All users of the System must be uniquely identified. This could be done via a username and associated password scheme that would authenticate and authorize the user access to the system and, if applicable, grant the user access to restricted or controlled parts of the system. If a user cannot be identified, they will not be given access. In order to monitor all past access to the system, all attempts to access the system should be logged.
+Users’ needs and expectations from the system will be different. Systems operations should be given unrestricted access to all aspects of the system and should have the authority to grant and revoke privileges on a per user basis. Development, testing and maintenance personnel, on the other hand, require access to some parts of the system, but not all, indicating that an access level is needed that allows privileges to be granted on a per-user and what do you need to do basis.
+The security should be done through the following way:
+Ø  .All users of the system shall login using some form of unique identification. (e.g., username and password)
+Ø  Each user shall have a set of system access properties that defines  the user’s privileges within the system.(e.g., the subsystems a user may control or system tools the user may access).
+Ø  The administrator shall have the ability to remove a user from the system.
+Ø  The administrator shall have the ability to edit a user’s system access properties.
+Ø  The administrator shall have the ability to block all access to the system for all users or selectively by user. (All blocked users with active sessions shall automatically be logged off.
+
+5.4 Software Quality Attributes
+The additional quality characteristics for the product that will be important to either the customers or the developers are adaptability since the system can be easily adapted in any kind of situation, maintainability as the system will be easily maintained without doubt,usability as the user will be able to use it without fail.
+
+5.5 Business Rules
+These are operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances.Station manager Mr.Vitalis and his assistant Mr.Mateleka they record weather information, take measurements, receive payments and give authorization to clients. Sua staff collect Meteorological data from mazimbu weather station that they use in different training of students and other people in need.
